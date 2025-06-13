@@ -1,4 +1,4 @@
-# TYPO3 v13 Development Site for EXT:matic-formular
+# TYPO3 v13 Development Site for EXT:typo3-mautic-formular
 
 Development site for **EXT:typo3_mautic_formular** in version 1.x
 

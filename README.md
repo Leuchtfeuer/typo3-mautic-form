@@ -1,6 +1,6 @@
 # TYPO3 v13 Development Site for EXT:matic-formular
 
-Development site for **EXT:matic_formular** in version 1.x
+Development site for **EXT:typo3_mautic_formular** in version 1.x
 
 ## Quickstart
 

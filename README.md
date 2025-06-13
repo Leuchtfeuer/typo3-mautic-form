@@ -8,7 +8,7 @@ Development site for **EXT:typo3_mautic_formular** in version 1.x
 
 Zuerst das Projekt-Repository `typo3-mautic-formular` klonen und die Extension in das passende Verzeichnis legen:
 
-- `cd ~/packages`
+- `cd /packages`
 - `git clone git@github.com:Leuchtfeuer/typo3-mautic-formular.git`
 - `cd typo3-matic-formular`
 

@@ -1,0 +1,16 @@
+mod.wizards {
+    newContentElement.wizardItems {
+      common {
+        elements {
+         typo3_mautic_formular {
+            iconIdentifier = content-form
+            title = LLL:EXT:typo3_mautic_formular/Resources/Private/Language/locallang.xlf:mautic_formular.title
+            description = LLL:EXT:typo3_mautic_formular/Resources/Private/Language/locallang.xlf:mautic_formular.description
+            tt_content_defValues {
+              CType = typo3_mautic_formular
+            }
+          }
+        }
+        show := addToList(typo3_mautic_formular)
+    }
+}

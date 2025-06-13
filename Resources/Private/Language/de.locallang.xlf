@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2025-06-12UTC11:00:480">
+        <header/>
+        <body>
+            <trans-unit id="mautic_formular.description">
+                <source>Embeds a Mautic form using a JavaScript snippet.</source>
+                <target>Bindet ein Mautic-Formular per JavaScript ein.</target>
+            </trans-unit>
+            <trans-unit id="mautic_formular.title">
+                <source>Mautic Form</source>
+                <target>Mautic Formular</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

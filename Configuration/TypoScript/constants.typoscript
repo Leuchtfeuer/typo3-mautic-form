@@ -1,0 +1,8 @@
+page {
+     fluidtemplate {
+        layoutRootPath = EXT:typo3_mautic_formular/Resources/Private/Layouts/
+        partialRootPath = EXT:typo3_mautic_formular/Resources/Private/Partials/
+        templateRootPath = EXT:typo3_mautic_formular/Resources/Private/Templates/
+    }
+}
+

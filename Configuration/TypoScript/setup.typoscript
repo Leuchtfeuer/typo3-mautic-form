@@ -1,0 +1,8 @@
+
+tt_content.typo3_mautic_formular = FLUIDTEMPLATE
+tt_content.typo3_mautic_formular {
+  templateName = Formular
+  templateRootPaths {
+    10 = EXT:typo3_mautic_formular/Resources/Private/Templates/ContentElements/
+  }
+}

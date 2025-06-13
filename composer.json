@@ -1,0 +1,24 @@
+{
+    "name": "leuchtfeuer/typo3-mautic-formular",
+    "type": "typo3-cms-extension",
+    "description": "Embeds a Mautic form using a JavaScript snippet.",
+    "homepage": "https://leuchtfeuer.com",
+    "license": ["GPL-2.0-or-later"],
+    "keywords": ["TYPO3 CMS"],
+    "version": "1.0.0",
+    "require": {
+        "typo3/cms-core": "^12.4",
+        "typo3/cms-rte-ckeditor": "^12.4",
+        "typo3/cms-fluid-styled-content": "^12.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Leuchtfeuer\\Typo3MauticFormular\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "typo3_mautic_formular"
+        }
+    }
+}

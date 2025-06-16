@@ -11,6 +11,14 @@
                 <source>Mautic Form</source>
                 <target>Mautic Formular</target>
             </trans-unit>
+            <trans-unit id="mautic_formular.id">
+                <source>Form ID</source>
+                <target>Formular ID</target>
+            </trans-unit>
+            <trans-unit id="mautic_formular.server_url">
+                <source>Mautic Server</source>
+                <target>Mautic Server</target>
+            </trans-unit>
         </body>
     </file>
 </xliff>

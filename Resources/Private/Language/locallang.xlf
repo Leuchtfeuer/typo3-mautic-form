@@ -9,6 +9,12 @@
             <trans-unit id="mautic_formular.title">
                 <source>Mautic Form</source>
             </trans-unit>
+            <trans-unit id="mautic_formular.id">
+                <source>Form ID</source>
+            </trans-unit>
+            <trans-unit id="mautic_formular.server_url">
+                <source>Mautic Server</source>
+            </trans-unit>
         </body>
     </file>
 </xliff>

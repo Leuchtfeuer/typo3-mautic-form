@@ -1,23 +1,44 @@
-# TYPO3 Extension Typo3 Mautic Form
+# TYPO3 Mautic Form Extension
 
-This TYPO3 extension integrates Mautic forms into TYPO3 installations. <br>
-Compatible with TYPO3 v12 (version 1.x), it allows editors to create a content element called Mautic Form. <br>
-By specifying a Mautic Form ID and the Mautic Server URL, the content element renders the corresponding Mautic form directly within TYPO3 pages.
+Seamlessly integrate Mautic forms into your TYPO3 installation.
 
-## Quickstart
+## 🚀 Features
+* Adds a new content element: **Mautic Form**
+* Easy configuration via TYPO3 backend
+* Direct rendering of Mautic forms by specifying:
+    * **Mautic Server URL**
+    * **Mautic Form ID**
+* No TypoScript inclusion required
+* Fully compatible with TYPO3 v12 (1.x branch)
+* Composer-ready
 
+## 📦 Installation
+### Composer (recommended)
+For TYPO3 installations using Composer, simply run:
 
-### Install
+- composer require leuchtfeuer/typo3-mautic-form
 
-If your TYPO3 instance is running in composer mode, you can simply require the extension by running:
+### Post-Installation
+1. Apply database schema updates in the **Maintenance module** (TYPO3 backend).
+2. The extension works out-of-the-box — no TypoScript setup needed.
 
-- `composer require leuchtfeuer/typo3-mautic-form`
+## ⚙️ Requirements
+* TYPO3 v12.x
+* Mautic instance with accessible forms
 
+## 📝 Usage
+1. In the TYPO3 backend, create a new content element.
+2. Select the **Mautic Form** element type.
+3. Enter:
+    * The full URL of your Mautic server (e.g., `https://mautic.example.com`)
+    * The Form ID you want to embed.
+4. Save — the form will render directly on your TYPO3 page.
 
-### After Installing
+## 🐞 Issues
+If you encounter any issues, feel free to open an issue:
 
-- Make sure to apply the database schema changes in the Maintenance module.
-- TypoScript inclusion is not required.
+- [GitHub Issues](https://github.com/Leuchtfeuer/typo3-mautic-form/issues)
 
-
-
+## 🙏 Credits
+Developed and maintained by Leuchtfeuer Digital Marketing  
+Inspired by the need for simple Mautic integration into TYPO3.

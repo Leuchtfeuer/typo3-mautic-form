@@ -1,8 +1,7 @@
-
 tt_content.typo3_mautic_form = FLUIDTEMPLATE
 tt_content.typo3_mautic_form {
   templateName = Form
   templateRootPaths {
-    10 = EXT:typo3_mautic_form/Resources/Private/Templates/ContentElements/
+    10 = {$tt_content.typo3_mautic_form.templateRootPaths}
   }
 }

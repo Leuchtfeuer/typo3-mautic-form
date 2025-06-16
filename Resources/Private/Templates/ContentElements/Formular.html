@@ -1,3 +1,3 @@
-<f:if condition="data.subheader && data.header">
-    <script type="text/javascript" src="//{data.subheader}/form/generate.js?id={data.header}"></script>
+<f:if condition="data.mautic_form_id && data.mautic_server_url">
+    <script type="text/javascript" src="//{data.mautic_server_url}/form/generate.js?id={data.mautic_form_id}"></script>
 </f:if>

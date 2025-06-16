@@ -5,16 +5,10 @@
     'tt_content',
     'CType',
     [
-        //title
         'label' => 'LLL:EXT:typo3_mautic_formular/Resources/Private/Language/locallang.xlf:mautic_formular.title',
-
-        // plugin signature: extkey_identifier
         'value' => 'typo3_mautic_formular',
-        // icon identifier
         'icon' => 'content-form',
-        // group
         'group' => 'default',
-        // description
         'description' => 'LLL:EXT:typo3_mautic_formular/Resources/Private/Language/locallang.xlf:mautic_formular.description',
     ],
     'header',
@@ -23,29 +17,33 @@
 
 $GLOBALS['TCA']['tt_content']['ctrl']['typeicon_classes']['typo3_mautic_formular'] = 'content-form';
 
+$tempColumns = [
+    'mautic_form_id' => [
+        'label' => 'LLL:EXT:typo3_mautic_formular/Resources/Private/Language/locallang.xlf:mautic_formular.id',
+        'config' => [
+            'type' => 'input',
+            'eval' => 'required,int',
+        ],
+    ],
+    'mautic_server_url' => [
+        'label' => 'LLL:EXT:typo3_mautic_formular/Resources/Private/Language/locallang.xlf:mautic_formular.server_url',
+        'config' => [
+            'type' => 'input',
+            'eval' => 'required,trim',
+            'placeholder' => 'z.B. mautic.domain.de/pfad',
+        ],
+    ],
+];
+
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTCAcolumns('tt_content', $tempColumns);
+
+
 $GLOBALS['TCA']['tt_content']['types']['typo3_mautic_formular'] = [
     'showitem' => '
         --palette--;;general,
-        header,
-        subheader,
-        --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:access,
-        --palette--;;,
+        mautic_form_id,
+        mautic_server_url,
+        --div--;Zugriff,
+        --palette--;;access,
     ',
-    'columnsOverrides' => [
-        'header' => [
-            'label' => 'Form ID',
-            'config' => [
-                'type' => 'input',
-                'eval' => 'required,int',
-            ],
-        ],
-        'subheader' => [
-            'label' => 'Mautic Server',
-            'config' => [
-                'type' => 'input',
-                'eval' => 'required,trim',
-                'placeholder' => 'z.B. mautic.domain.de/pfad',
-            ],
-        ],
-    ],
 ];

@@ -1,5 +1,5 @@
 {
-    "name": "leuchtfeuer/typo3-mautic-formular",
+    "name": "leuchtfeuer/typo3-mautic-form",
     "type": "typo3-cms-extension",
     "description": "Embeds a Mautic form using a JavaScript snippet.",
     "homepage": "https://leuchtfeuer.com",
@@ -18,7 +18,7 @@
     },
     "extra": {
         "typo3/cms": {
-            "extension-key": "typo3_mautic_formular"
+            "extension-key": "typo3_mautic_form"
         }
     }
 }

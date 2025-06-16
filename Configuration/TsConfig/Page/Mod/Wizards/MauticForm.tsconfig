@@ -2,15 +2,15 @@ mod.wizards {
     newContentElement.wizardItems {
       common {
         elements {
-         typo3_mautic_formular {
+         typo3_mautic_form {
             iconIdentifier = content-form
-            title = LLL:EXT:typo3_mautic_formular/Resources/Private/Language/locallang.xlf:mautic_form.title
-            description = LLL:EXT:typo3_mautic_formular/Resources/Private/Language/locallang.xlf:mautic_form.description
+            title = LLL:EXT:typo3_mautic_form/Resources/Private/Language/locallang.xlf:mautic_form.title
+            description = LLL:EXT:typo3_mautic_form/Resources/Private/Language/locallang.xlf:mautic_form.description
             tt_content_defValues {
-              CType = typo3_mautic_formular
+              CType = typo3_mautic_form
             }
           }
         }
-        show := addToList(typo3_mautic_formular)
+        show := addToList(typo3_mautic_form)
     }
 }

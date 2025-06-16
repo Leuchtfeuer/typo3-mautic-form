@@ -1,1 +1,1 @@
-@import 'EXT:typo3_mautic_formular/Configuration/TsConfig/Page/Mod/Wizards/MauticForm.tsconfig'
+@import 'EXT:typo3_mautic_form/Configuration/TsConfig/Page/Mod/Wizards/MauticForm.tsconfig'

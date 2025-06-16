@@ -5,28 +5,28 @@
     'tt_content',
     'CType',
     [
-        'label' => 'LLL:EXT:typo3_mautic_formular/Resources/Private/Language/locallang.xlf:mautic_form.title',
-        'value' => 'typo3_mautic_formular',
+        'label' => 'LLL:EXT:typo3_mautic_form/Resources/Private/Language/locallang.xlf:mautic_form.title',
+        'value' => 'typo3_mautic_form',
         'icon' => 'content-form',
         'group' => 'default',
-        'description' => 'LLL:EXT:typo3_mautic_formular/Resources/Private/Language/locallang.xlf:mautic_form.description',
+        'description' => 'LLL:EXT:typo3_mautic_form/Resources/Private/Language/locallang.xlf:mautic_form.description',
     ],
     'header',
     'before'
 );
 
-$GLOBALS['TCA']['tt_content']['ctrl']['typeicon_classes']['typo3_mautic_formular'] = 'content-form';
+$GLOBALS['TCA']['tt_content']['ctrl']['typeicon_classes']['typo3_mautic_form'] = 'content-form';
 
 $tempColumns = [
     'mautic_form_id' => [
-        'label' => 'LLL:EXT:typo3_mautic_formular/Resources/Private/Language/locallang.xlf:mautic_form.id',
+        'label' => 'LLL:EXT:typo3_mautic_form/Resources/Private/Language/locallang.xlf:mautic_form.id',
         'config' => [
             'type' => 'input',
             'eval' => 'required,int',
         ],
     ],
     'mautic_server_url' => [
-        'label' => 'LLL:EXT:typo3_mautic_formular/Resources/Private/Language/locallang.xlf:mautic_form.server_url',
+        'label' => 'LLL:EXT:typo3_mautic_form/Resources/Private/Language/locallang.xlf:mautic_form.server_url',
         'config' => [
             'type' => 'input',
             'eval' => 'required,trim',
@@ -38,7 +38,7 @@ $tempColumns = [
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTCAcolumns('tt_content', $tempColumns);
 
 
-$GLOBALS['TCA']['tt_content']['types']['typo3_mautic_formular'] = [
+$GLOBALS['TCA']['tt_content']['types']['typo3_mautic_form'] = [
     'showitem' => '
         --palette--;;general,
         mautic_form_id,

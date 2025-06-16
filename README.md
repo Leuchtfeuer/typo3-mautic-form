@@ -1,20 +1,29 @@
-# TYPO3 v13 Development Site for EXT:typo3-mautic-formular
+# EXT:typo3_mautic_form – TYPO3 v12 Compatibility
 
-Development site for **EXT:typo3_mautic_formular** in version 1.x
+This TYPO3 extension integrates Mautic forms into TYPO3 installations. <br>
+Compatible with TYPO3 v12 (version 1.x), it allows editors to create a content element called Mautic Form. <br>
+By specifying a Mautic Form ID and the Mautic Server URL, the content element renders the corresponding Mautic form directly within TYPO3 pages.
 
 ## Quickstart
 
 ### Checkout
 
-Zuerst das Projekt-Repository `typo3-mautic-formular` klonen und die Extension in das passende Verzeichnis legen:
+First, place the typo3-mautic-form extension into the /packages directory:
 
 - `cd /packages`
-- `git clone git@github.com:Leuchtfeuer/typo3-mautic-formular.git`
-- `cd typo3-matic-formular`
+- `cd typo3-mautic-form`
 
 ### Install
 
-Starte das DDEV-Projekt und installiere die Extension per Composer:
+Start the DDEV project and install the extension via Composer::
 
-- `ddev start`
-- `ddev composer require leuchtfeuer/typo3-mautic-formular:@dev`
+- `composer require leuchtfeuer/typo3-mautic-formular:@dev`
+
+
+### After Installing
+
+- Make sure to apply the database schema changes in the Maintenance module.
+- TypoScript inclusion is not required.
+
+
+

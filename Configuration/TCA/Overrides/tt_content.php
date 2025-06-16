@@ -43,7 +43,5 @@ $GLOBALS['TCA']['tt_content']['types']['typo3_mautic_form'] = [
         --palette--;;general,
         mautic_form_id,
         mautic_server_url,
-        --div--;Zugriff,
-        --palette--;;access,
     ',
 ];

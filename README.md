@@ -17,7 +17,7 @@ First, place the typo3-mautic-form extension into the /packages directory:
 
 Start the DDEV project and install the extension via Composer::
 
-- `composer require leuchtfeuer/typo3-mautic-formular:@dev`
+- `composer require leuchtfeuer/typo3-mautic-form`
 
 
 ### After Installing

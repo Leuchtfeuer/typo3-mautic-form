@@ -23,6 +23,7 @@ $tempColumns = [
         'config' => [
             'type' => 'input',
             'eval' => 'required,int',
+            'size' => 10,
         ],
     ],
     'mautic_server_url' => [
@@ -30,7 +31,8 @@ $tempColumns = [
         'config' => [
             'type' => 'input',
             'eval' => 'required,trim',
-            'placeholder' => 'z.B. mautic.domain.de/pfad',
+            'size' => 45,
+            'placeholder' => 'LLL:EXT:typo3_mautic_form/Resources/Private/Language/locallang_db.xlf:mautic_form.placeholder',
         ],
     ],
 ];
@@ -41,7 +43,7 @@ $tempColumns = [
 $GLOBALS['TCA']['tt_content']['types']['typo3_mautic_form'] = [
     'showitem' => '
         --palette--;;general,
-        mautic_form_id,
         mautic_server_url,
+        mautic_form_id,
     ',
 ];

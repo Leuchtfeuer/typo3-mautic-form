@@ -10,10 +10,13 @@
                 <source>Mautic Form</source>
             </trans-unit>
             <trans-unit id="mautic_form.id">
-                <source>Form ID</source>
+                <source>Mautic Form ID</source>
             </trans-unit>
             <trans-unit id="mautic_form.server_url">
                 <source>Mautic Server</source>
+            </trans-unit>
+            <trans-unit id="mautic_form.placeholder">
+                <source>Hostname, plus optional path segment ( e.g. mautic.example.com or www.example.com/mautic )</source>
             </trans-unit>
         </body>
     </file>

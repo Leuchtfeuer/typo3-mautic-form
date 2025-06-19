@@ -1,3 +1,11 @@
-<f:if condition="data.mautic_form_id && data.mautic_server_url">
-    <script type="text/javascript" src="//{data.mautic_server_url}/form/generate.js?id={data.mautic_form_id}"></script>
+<f:variable name="replaced_mautic_server_url">
+    <f:replace value="{data.mautic_server_url}"
+               search="{0: 'https://', 1: 'http://', 2: '//'}"
+               replace="{0: '', 1: '', 2: ''}" />
+</f:variable>
+
+<f:variable name="trimed_mautic_server_url"><f:format.trim>{replaced_mautic_server_url}</f:format.trim></f:variable>
+
+<f:if condition="data.mautic_form_id && trimed_mautic_server_url">
+    <script type="text/javascript" src="//{f:format.trim(value: trimed_mautic_server_url, characters:'/', side:'right')}/form/generate.js?id={data.mautic_form_id}"></script>
 </f:if>

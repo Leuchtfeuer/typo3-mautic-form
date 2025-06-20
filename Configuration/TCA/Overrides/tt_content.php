@@ -28,11 +28,10 @@ $tempColumns = [
     ],
     'mautic_server_url' => [
         'label' => 'LLL:EXT:typo3_mautic_form/Resources/Private/Language/locallang_db.xlf:mautic_form.server_url',
+        'description' => 'LLL:EXT:typo3_mautic_form/Resources/Private/Language/locallang_db.xlf:mautic_form.server_url.description',
         'config' => [
             'type' => 'input',
             'eval' => 'required,trim',
-            'size' => 45,
-            'placeholder' => 'LLL:EXT:typo3_mautic_form/Resources/Private/Language/locallang_db.xlf:mautic_form.placeholder',
         ],
     ],
 ];

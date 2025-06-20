@@ -15,7 +15,7 @@
             <trans-unit id="mautic_form.server_url">
                 <source>Mautic Server</source>
             </trans-unit>
-            <trans-unit id="mautic_form.placeholder">
+            <trans-unit id="mautic_form.server_url.description">
                 <source>Hostname, plus optional path segment ( e.g. mautic.example.com or www.example.com/mautic )</source>
             </trans-unit>
         </body>

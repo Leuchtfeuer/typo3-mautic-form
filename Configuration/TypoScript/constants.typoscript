@@ -1,1 +1,1 @@
-tt_content.typo3_mautic_form.templateRootPaths = EXT:typo3_mautic_form/Resources/Private/Templates/ContentElements/
+tt_content.mautic_form.templateRootPaths = EXT:mautic_form/Resources/Private/Templates/ContentElements/

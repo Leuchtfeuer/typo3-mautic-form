@@ -1,5 +1,5 @@
 {
-    "name": "leuchtfeuer/typo3-mautic-form",
+    "name": "leuchtfeuer/mautic-form",
     "type": "typo3-cms-extension",
     "description": "Embeds a Mautic form using a JavaScript snippet.",
     "homepage": "https://leuchtfeuer.com",
@@ -13,12 +13,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Leuchtfeuer\\Typo3MauticFormular\\": "Classes/"
+            "Leuchtfeuer\\MauticFormular\\": "Classes/"
         }
     },
     "extra": {
         "typo3/cms": {
-            "extension-key": "typo3_mautic_form"
+            "extension-key": "mautic_form"
         }
     }
 }

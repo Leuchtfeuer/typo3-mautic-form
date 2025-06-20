@@ -12,12 +12,16 @@
                 <target>Mautic Formular</target>
             </trans-unit>
             <trans-unit id="mautic_form.id">
-                <source>Form ID</source>
-                <target>Formular ID</target>
+                <source>Mautic Form ID</source>
+                <target>Mautic Formular-ID</target>
             </trans-unit>
             <trans-unit id="mautic_form.server_url">
                 <source>Mautic Server</source>
                 <target>Mautic Server</target>
+            </trans-unit>
+            <trans-unit id="mautic_form.server_url.description">
+                <source>Hostname, plus optional path segment ( e.g. mautic.example.com or www.example.com/mautic )</source>
+                <target>Hostname, plus optionales Pfadsegment ( z.B. mautic.example.com oder www.example.com/mautic )</target>
             </trans-unit>
         </body>
     </file>

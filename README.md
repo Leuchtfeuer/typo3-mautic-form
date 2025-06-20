@@ -10,7 +10,7 @@
 ### Composer (recommended)
 For TYPO3 installations using Composer, simply run:
 
-- composer require leuchtfeuer/typo3-mautic-form
+- composer require leuchtfeuer/mautic-form
 
 ### Post-Installation
 1. **Apply database schema updates** in the Maintenance module (TYPO3 backend).

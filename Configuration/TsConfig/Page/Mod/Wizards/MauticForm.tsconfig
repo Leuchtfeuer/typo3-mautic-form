@@ -1,16 +1,18 @@
 mod.wizards {
-    newContentElement.wizardItems {
-      common {
-        elements {
-          mautic_form {
-            iconIdentifier = content-form
-            title = LLL:EXT:mautic_form/Resources/Private/Language/locallang_db.xlf:mautic_form.title
-            description = LLL:EXT:mautic_form/Resources/Private/Language/locallang_db.xlf:mautic_form.description
-            tt_content_defValues {
-              CType = mautic_form
-            }
+  newContentElement.wizardItems {
+    forms {
+      elements {
+        typo3_mautic_form {
+          iconIdentifier = content-form
+          title = LLL:EXT:typo3_mautic_form/Resources/Private/Language/locallang_db.xlf:typo3_mautic_form.title
+          description = LLL:EXT:typo3_mautic_form/Resources/Private/Language/locallang_db.xlf:typo3_mautic_form.description
+          tt_content_defValues {
+            CType = typo3_mautic_form
           }
         }
-        show := addToList(mautic_form)
+      }
+
+      show := addToList(typo3_mautic_form)
     }
+  }
 }

@@ -1,11 +1,11 @@
 {
-    "name": "leuchtfeuer/mautic-form",
+    "name": "leuchtfeuer/typo3-mautic-form",
     "type": "typo3-cms-extension",
     "description": "TYPO3 plugin to seamlessly integrate forms generated in Mautic Open Source Marketing Automation.",
     "homepage": "https://leuchtfeuer.com",
     "license": ["GPL-2.0-or-later"],
     "keywords": ["TYPO3 CMS"],
-    "version": "1.0.3",
+    "version": "1.0.4",
     "require": {
         "typo3/cms-core": "^12.4",
         "typo3/cms-rte-ckeditor": "^12.4",
@@ -13,12 +13,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Leuchtfeuer\\MauticFormular\\": "Classes/"
+            "Leuchtfeuer\\Typo3MauticFormular\\": "Classes/"
         }
     },
     "extra": {
         "typo3/cms": {
-            "extension-key": "mautic_form"
+            "extension-key": "typo3_mautic_form"
         }
     }
 }

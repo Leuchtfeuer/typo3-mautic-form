@@ -3,23 +3,23 @@
     <file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2025-06-12UTC11:00:480">
         <header/>
         <body>
-            <trans-unit id="mautic_form.description">
+            <trans-unit id="typo3_mautic_form.description">
                 <source>Embeds a Mautic form using a JavaScript snippet.</source>
                 <target>Bindet ein Mautic-Formular per JavaScript ein.</target>
             </trans-unit>
-            <trans-unit id="mautic_form.title">
+            <trans-unit id="typo3_mautic_form.title">
                 <source>Mautic Form</source>
                 <target>Mautic Formular</target>
             </trans-unit>
-            <trans-unit id="mautic_form.id">
+            <trans-unit id="typo3_mautic_form.id">
                 <source>Mautic Form ID</source>
                 <target>Mautic Formular-ID</target>
             </trans-unit>
-            <trans-unit id="mautic_form.server_url">
+            <trans-unit id="typo3_mautic_form.server_url">
                 <source>Mautic Server</source>
                 <target>Mautic Server</target>
             </trans-unit>
-            <trans-unit id="mautic_form.server_url.description">
+            <trans-unit id="typo3_mautic_form.server_url.description">
                 <source>Hostname, plus optional path segment ( e.g. mautic.example.com or www.example.com/mautic )</source>
                 <target>Hostname, plus optionales Pfadsegment ( z.B. mautic.example.com oder www.example.com/mautic )</target>
             </trans-unit>

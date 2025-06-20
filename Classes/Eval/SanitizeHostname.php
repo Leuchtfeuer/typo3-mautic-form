@@ -1,8 +1,8 @@
 <?php
 
-namespace Leuchtfeuer\MauticFormular\Eval;
+namespace Leuchtfeuer\Typo3MauticFormular\Eval;
 
-use Leuchtfeuer\MauticFormular\Service\SanitizingHostnameService;
+use Leuchtfeuer\Typo3MauticFormular\Service\SanitizingHostnameService;
 
 class SanitizeHostname
 {

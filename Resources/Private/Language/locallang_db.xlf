@@ -3,19 +3,19 @@
     <file source-language="en" datatype="plaintext" original="messages" date="2025-06-12UTC11:00:480">
         <header/>
         <body>
-            <trans-unit id="mautic_form.description">
+            <trans-unit id="typo3_mautic_form.description">
                 <source>Embeds a Mautic form using a JavaScript snippet.</source>
             </trans-unit>
-            <trans-unit id="mautic_form.title">
+            <trans-unit id="typo3_mautic_form.title">
                 <source>Mautic Form</source>
             </trans-unit>
-            <trans-unit id="mautic_form.id">
+            <trans-unit id="typo3_mautic_form.id">
                 <source>Mautic Form ID</source>
             </trans-unit>
-            <trans-unit id="mautic_form.server_url">
+            <trans-unit id="typo3_mautic_form.server_url">
                 <source>Mautic Server</source>
             </trans-unit>
-            <trans-unit id="mautic_form.server_url.description">
+            <trans-unit id="typo3_mautic_form.server_url.description">
                 <source>Hostname, plus optional path segment ( e.g. mautic.example.com or www.example.com/mautic )</source>
             </trans-unit>
         </body>

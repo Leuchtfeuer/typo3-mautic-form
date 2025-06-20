@@ -1,6 +1,6 @@
 # Lightweight TYPO3 Mautic Form Plugin by Leuchtfeuer
 
-* Seamlessly integrates forms generated in [Mautic](https://mautic.org) Open Source Marketing Automation. 
+* TYPO3 plugin to seamlessly integrate forms generated in Mautic Open Source Marketing Automation.
 * Does not require API / OAuth setup, mtc.js tracking code, cookies or anything else.
 * Avoids the need for using the "Plain HTML" content element (= avoids security concerns).
 

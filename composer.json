@@ -18,7 +18,7 @@
     },
     "extra": {
         "typo3/cms": {
-            "extension-key": "typo3_mautic_form"
+            "extension-key": "mautic_form"
         }
     }
 }

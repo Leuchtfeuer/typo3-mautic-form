@@ -31,7 +31,7 @@ $tempColumns = [
         'description' => 'LLL:EXT:mautic_form/Resources/Private/Language/locallang_db.xlf:mautic_form.server_url.description',
         'config' => [
             'type' => 'input',
-            'eval' => 'required,trim,' . Leuchtfeuer\Typo3MauticFormular\Eval\SanitizeHostname::class,
+            'eval' => 'required,trim,' . Leuchtfeuer\MauticFormular\Eval\SanitizeHostname::class,
         ],
     ],
 ];

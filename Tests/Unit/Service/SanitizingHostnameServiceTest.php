@@ -9,7 +9,7 @@
  * (c) Leuchtfeuer Digital Marketing <dev@Leuchtfeuer.com>
  */
 
-namespace Leuchtfeuer\Typo3MauticFormular\Service;
+namespace Leuchtfeuer\MauticFormular\Service;
 
 use PHPUnit\Framework\TestCase;
 

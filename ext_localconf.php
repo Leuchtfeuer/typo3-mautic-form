@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-use Leuchtfeuer\Typo3MauticFormular\Eval\SanitizeHostname;
+use Leuchtfeuer\MauticFormular\Eval\SanitizeHostname;
 use TYPO3\CMS\Core\Information\Typo3Version;
 use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
@@ -15,7 +15,6 @@ if ($versionInformation->getMajorVersion() < 12) {
         '@import "EXT:mautic_form/Configuration/page.tsconfig"',
     );
 }
-
 
 call_user_func(function()
 {

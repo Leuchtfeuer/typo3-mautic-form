@@ -1,6 +1,6 @@
 <?php
 
-namespace Leuchtfeuer\Typo3MauticFormular\Service;
+namespace Leuchtfeuer\MauticFormular\Service;
 
 class SanitizingHostnameService
 {

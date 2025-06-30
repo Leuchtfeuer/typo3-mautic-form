@@ -1,7 +1,13 @@
 tt_content.typo3_mautic_form = FLUIDTEMPLATE
 tt_content.typo3_mautic_form {
   templateName = Form
-  templateRootPaths {
-    10 = {$tt_content.typo3_mautic_form.templateRootPaths}
-  }
+    layoutRootPaths {
+      10 = {$tt_content.typo3_mautic_form.layoutRootPaths}
+    }
+    templateRootPaths {
+       10 = {$tt_content.typo3_mautic_form.templateRootPaths}
+    }
+    partialRootPaths {
+       10 = {$tt_content.typo3_mautic_form.partialRootPaths}
+    }
 }

@@ -25,12 +25,6 @@ call_user_func(function()
         'setup',
         "@import 'EXT:typo3_mautic_form/Configuration/TypoScript/setup.typoscript'"
     );
-
-    \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTypoScript(
-        $extensionKey,
-        'constants',
-        "@import 'EXT:typo3_mautic_form/Configuration/TypoScript/constants.typoscript'"
-    );
 });
 
 

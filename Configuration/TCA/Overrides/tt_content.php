@@ -45,7 +45,7 @@ $tempColumns = [
 
 $GLOBALS['TCA']['tt_content']['types']['typo3_mautic_form'] = [
     'showitem' => '
-         --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:general, --palette--;;general,typo3_mautic_server_url,typo3_mautic_form_id,
+         --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:general, --palette--;;general,header,header_layout,typo3_mautic_server_url,typo3_mautic_form_id,
          --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:language, --palette--;;language, 
          --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:access, --palette--;;hidden,--palette--;;access, 
          --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:categories, categories, 
